@@ -35,16 +35,16 @@ local colors = {
 local Window = Library.CreateLib("Name", "RJTheme3")
 
 -- Секция
-local Tab = Window:NewTab("TabName")
+local Tab = Window:NewTab("Fireabillity")
 
 -- Подсекция
-local Section = Tab:NewSection("Section Name")
+local Section = Tab:NewSection("Abillityfire")
 
 -- Заголовок
-Section:NewLabel("LabelText")
+Section:NewLabel("Reverse")
 
 -- Кнопка
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Reverseabillity", "ButtonInfo", function()
 	game:GetService("ReplicatedStorage").ReverseAbility:FireServer(true)
 end)
 
